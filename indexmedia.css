@@ -6,9 +6,9 @@ body {
 }
 
 /* Container adjustments for smaller screens */
-.headercontainer, .footercontainer {
-    width: 455px;
-    height: 150px;
+.headercontainer{
+    width: 100%;
+    height: 12%;
     overflow-x: hidden;
 }
 
