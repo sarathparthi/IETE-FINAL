@@ -7,7 +7,7 @@ body {
 
 /* Container adjustments for smaller screens */
 .headercontainer, .footercontainer {
-    width: 100%;
+    width: 100px
 }
 
 /* Media queries for mobile (Samsung M52 and similar) */
@@ -15,25 +15,28 @@ body {
     
     /* Header adjustments */
     .header {
-        top: 10px;
-        left: 20px;
+        top: 0px;
+        left: 15px;
         font-size: 18px; /* Adjust the font size for mobile */
     }
     
     .headerform {
-        top: 50px;
-        right: 20px;
+        top: 100px;
+        left:  0px;
     }
     
     .headerform li a {
-        padding: 10px;
-        font-size: 14px;
+        padding: 7px;
+        font-size: 15px;
+        padding-left: 0px;
     }
 
     /* Infocenter adjustments */
     .infocenter {
-        padding: 20px;
+        position: relative;
+        top: 450px;
         height: auto;
+        padding-bottom: 800px;
     }
     
     .infocenter h1 {
@@ -84,7 +87,6 @@ body {
 
     /* Awards section adjustments */
     .awards, .awphoto{
-        padding: 10px;
         font-size: 12px;
         position: relative;
         top: 460px;
@@ -93,26 +95,22 @@ body {
         font-size: 12px;
     }
     /* Footer adjustments */
+    .footercontainer{
+        display: none;
+    }
     .footerimg {
-        top: 10px;
-        font-size: 14px;
+        display: none;
     }
 
     .quiclink {
-        top: auto;
-        left: 0;
-        padding: 10px;
-        flex-direction: column;
+        display: none;
     }
 
     .quiclink li a {
-        font-size: 12px;
-        padding: 5px;
+        display: none;
     }
 
     .info {
-        top: auto;
-        left: 10px;
-        font-size: 10px;
+        display: none;
     }
 }
