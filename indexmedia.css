@@ -62,10 +62,19 @@ body {
     /* Executive body adjustments */
     .Executive {
         height: auto;
+        position: relative;
+        top: 42%;
     }
 
-    .pinmg, .hodimg {
-        left: 0;
+    .pinmg{
+        left: 20%;
+        top:45%;
+        font-size: 12px;
+    }
+    .hodimg{
+        position: relative;
+        left: 20%;
+        top: 50%;
         font-size: 12px;
     }
     
@@ -74,11 +83,15 @@ body {
     }
 
     /* Awards section adjustments */
-    .awards, .awphoto, .awardtext {
+    .awards, .awphoto{
         padding: 10px;
         font-size: 12px;
+        position: relative;
+        top: 460px;
     }
-
+    .awardtext{
+        font-size: 12px;
+    }
     /* Footer adjustments */
     .footerimg {
         top: 10px;
